@@ -1,6 +1,6 @@
-# Assignment-05
+# Assignment-5
 
-DF <- read.csv("CPIAUCSL"")
+DF <- "Downloads/CPIAUCSL.csv"
+DF <- data.table::fread(DF)
 DF
-DF <- data.table::fread("CPIAUCSL"")
-DF
+summary(DF)
